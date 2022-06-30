@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url("./../img/onekeysave/banner-background.png");
+    background-size: cover;
+}
+
+
+.content {
+    width: 600pt;
+    margin: 0 auto;
+}
+
+.title {
+    color: white;
+    font-size: 50pt;
+    text-align: center;
+    padding-top: 50pt;
+}
+
+.text {
+    color: white;
+    font-size: 20pt;
+}
+
+#prod {
+    width: 600pt;
+    height: 300pt;
+    margin: 0 auto;
+}
+
+#prodimg {
+    width: 480pt;
+    height: 300pt;
+    float: left;
+}
+
+#prodright {
+    width: 100pt;
+    height: 300pt;
+    float: right;
+    position: relative;
+}
+
+#list {
+    right: 5pt;
+    bottom: 30pt;
+    position: absolute;
+    line-height: 35pt;
+}
+
+
+
+a:hover{
+    color: crimson;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+}
+
+#copyright {
+    position: absolute;
+    left: 100pt;
+    bottom: 50pt;
+    color: white;
+    font-size: 16pt;
+}
+
